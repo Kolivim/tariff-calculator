@@ -4,13 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194c76d-27ee-40fe-adaf-a4443701a984" name="Changes" comment="Load project" />
+    <list default="true" id="5194c76d-27ee-40fe-adaf-a4443701a984" name="Changes" comment="Add coordinates class">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/api/request/characteristics/CalculateCharacteristicsPackagesRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/api/request/characteristics/CargoPackageСharacteristics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -32,25 +48,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Repository/TariffCalculator/tariff-calculator",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Repository/TariffCalculator/tariff-calculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b6920d9083c8e76685bcc8db34b8c9bb&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Repository\TariffCalculator\tariff-calculator\.github\workflow" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.fastdelivery.presentation.api.request.characteristics" />
+      <recent name="ru.fastdelivery.presentation.api.request" />
+      <recent name="ru.fastdelivery.presentation.api.request.dimensions" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #49">
+    <configuration name="generated-requests | #49" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="49" requestIdentifier="#49" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #50" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="50" requestIdentifier="#50" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculateControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.fastdelivery.calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.fastdelivery.calc" />
+      <option name="MAIN_CLASS_NAME" value="ru.fastdelivery.calc.CalculateControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.fastdelivery.Main" />
@@ -64,9 +111,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests | #49" />
+      <item itemvalue="HTTP Request.generated-requests | #50" />
+      <item itemvalue="JUnit.CalculateControllerTest" />
+      <item itemvalue="Spring Boot.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #49" />
         <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="HTTP Request.generated-requests | #50" />
+        <item itemvalue="JUnit.CalculateControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +137,9 @@
       <workItem from="1702241491486" duration="18000" />
       <workItem from="1702242303994" duration="239000" />
       <workItem from="1702242771864" duration="488000" />
-      <workItem from="1702243652450" duration="310000" />
+      <workItem from="1702243652450" duration="708000" />
+      <workItem from="1702280298779" duration="3875000" />
+      <workItem from="1702297173705" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="Add gitlab-ci">
       <created>1702242456644</created>
@@ -132,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702243948572</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Load project">
+      <created>1702244153260</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702244153260</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add coordinates class">
+      <created>1702284278075</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702284278075</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +225,58 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add gitlab-ci" />
     <MESSAGE value="Load project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Load project" />
+    <MESSAGE value="Add coordinates class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add coordinates class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

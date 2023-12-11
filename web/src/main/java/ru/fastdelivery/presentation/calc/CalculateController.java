@@ -46,5 +46,26 @@ public class CalculateController {
         var minimalPrice = tariffCalculateUseCase.minimalPrice();
         return new CalculatePackagesResponse(calculatedPrice, minimalPrice);
     }
+
+    @PostMapping("new")
+    @Operation(summary = "Расчет стоимости по упаковкам груза")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successful operation"),
+            @ApiResponse(responseCode = "400", description = "Invalid input provided")
+    })
+    public CalculatePackagesResponse calculateNew(
+            @Valid @RequestBody CalculatePackagesRequest request) {
+        var packsWeights = request.packages().stream()
+                .map(CargoPackage::weight)
+                .map(Weight::new)
+                .map(Pack::new)
+                .toList();
+
+        var shipment = new Shipment(packsWeights, currencyFactory.create(request.currencyCode()));
+        var calculatedPrice = tariffCalculateUseCase.calc(shipment);
+        var minimalPrice = tariffCalculateUseCase.minimalPrice();
+        return new CalculatePackagesResponse(calculatedPrice, minimalPrice);
+    }
+
 }
 
