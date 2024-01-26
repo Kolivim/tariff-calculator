@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194c76d-27ee-40fe-adaf-a4443701a984" name="Changes" comment="Load project" />
+    <list default="true" id="5194c76d-27ee-40fe-adaf-a4443701a984" name="Changes" comment="Add builrd.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,19 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Repository/TariffCalculator/tariff-calculator",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Repository/TariffCalculator/tariff-calculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b6920d9083c8e76685bcc8db34b8c9bb&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Repository\TariffCalculator\tariff-calculator\.github\workflow" />
@@ -82,6 +86,10 @@
       <workItem from="1702242303994" duration="239000" />
       <workItem from="1702242771864" duration="488000" />
       <workItem from="1702243652450" duration="310000" />
+      <workItem from="1706369255390" duration="595000" />
+      <workItem from="1706562560314" duration="378000" />
+      <workItem from="1706589762862" duration="1528000" />
+      <workItem from="1706591802454" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="Add gitlab-ci">
       <created>1702242456644</created>
@@ -132,7 +140,49 @@
       <option name="project" value="LOCAL" />
       <updated>1702243948572</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add builrd.yml">
+      <created>1706305377708</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706305377708</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add builrd.yml">
+      <created>1706562595646</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706562595646</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add builrd.yml">
+      <created>1706562753703</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706562753703</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add builrd.yml">
+      <created>1706562847108</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706562847108</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add builrd.yml">
+      <created>1706591665775</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706591665775</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add builrd.yml">
+      <created>1706591825475</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706591825475</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +203,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add gitlab-ci" />
     <MESSAGE value="Load project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Load project" />
+    <MESSAGE value="Add builrd.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add builrd.yml" />
   </component>
 </project>
