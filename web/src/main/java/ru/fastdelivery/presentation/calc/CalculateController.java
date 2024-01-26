@@ -16,6 +16,8 @@ import ru.fastdelivery.domain.delivery.pack.Pack;
 import ru.fastdelivery.domain.delivery.shipment.Shipment;
 import ru.fastdelivery.presentation.api.request.CalculatePackagesRequest;
 import ru.fastdelivery.presentation.api.request.CargoPackage;
+import ru.fastdelivery.presentation.api.request.characteristics.CalculateCharacteristicsPackagesRequest;
+import ru.fastdelivery.presentation.api.request.characteristics.CargoPackageСharacteristics;
 import ru.fastdelivery.presentation.api.response.CalculatePackagesResponse;
 import ru.fastdelivery.usecase.TariffCalculateUseCase;
 
@@ -47,6 +49,7 @@ public class CalculateController {
         return new CalculatePackagesResponse(calculatedPrice, minimalPrice);
     }
 
+
     @PostMapping("new")
     @Operation(summary = "Расчет стоимости по упаковкам груза")
     @ApiResponses(value = {
@@ -54,9 +57,9 @@ public class CalculateController {
             @ApiResponse(responseCode = "400", description = "Invalid input provided")
     })
     public CalculatePackagesResponse calculateNew(
-            @Valid @RequestBody CalculatePackagesRequest request) {
+            @Valid @RequestBody CalculateCharacteristicsPackagesRequest request) {
         var packsWeights = request.packages().stream()
-                .map(CargoPackage::weight)
+                .map(CargoPackageСharacteristics ::weight)
                 .map(Weight::new)
                 .map(Pack::new)
                 .toList();
@@ -66,6 +69,5 @@ public class CalculateController {
         var minimalPrice = tariffCalculateUseCase.minimalPrice();
         return new CalculatePackagesResponse(calculatedPrice, minimalPrice);
     }
-
 }
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194c76d-27ee-40fe-adaf-a4443701a984" name="Changes" comment="Add coordinates class">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/api/request/characteristics/CalculateCharacteristicsPackagesRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/api/request/characteristics/CargoPackageСharacteristics.java" afterDir="false" />
+    <list default="true" id="5194c76d-27ee-40fe-adaf-a4443701a984" name="Changes" comment="Add coordinates class and characteristics record">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +75,14 @@
       <recent name="ru.fastdelivery.presentation.api.request.dimensions" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #49">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #51">
     <configuration name="generated-requests | #49" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="49" requestIdentifier="#49" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #50" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="50" requestIdentifier="#50" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #51" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="51" requestIdentifier="#51" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CalculateControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -112,6 +114,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.generated-requests | #51" />
       <item itemvalue="HTTP Request.generated-requests | #49" />
       <item itemvalue="HTTP Request.generated-requests | #50" />
       <item itemvalue="JUnit.CalculateControllerTest" />
@@ -119,9 +122,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #49" />
+        <item itemvalue="HTTP Request.generated-requests | #51" />
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="HTTP Request.generated-requests | #50" />
+        <item itemvalue="HTTP Request.generated-requests | #49" />
         <item itemvalue="JUnit.CalculateControllerTest" />
       </list>
     </recent_temporary>
@@ -139,7 +143,11 @@
       <workItem from="1702242771864" duration="488000" />
       <workItem from="1702243652450" duration="708000" />
       <workItem from="1702280298779" duration="3875000" />
-      <workItem from="1702297173705" duration="2763000" />
+      <workItem from="1702297173705" duration="2807000" />
+      <workItem from="1702304844790" duration="1467000" />
+      <workItem from="1702310888044" duration="327000" />
+      <workItem from="1702328844259" duration="1754000" />
+      <workItem from="1705529230306" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="Add gitlab-ci">
       <created>1702242456644</created>
@@ -204,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702284278075</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add coordinates class and characteristics record">
+      <created>1702300551756</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702300551756</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,54 +241,55 @@
     <MESSAGE value="Add gitlab-ci" />
     <MESSAGE value="Load project" />
     <MESSAGE value="Add coordinates class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add coordinates class" />
+    <MESSAGE value="Add coordinates class and characteristics record" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add coordinates class and characteristics record" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>43</line>
+          <line>45</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>44</line>
+          <line>46</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>45</line>
+          <line>47</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>46</line>
+          <line>48</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>37</line>
+          <line>39</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>38</line>
+          <line>40</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>40</line>
+          <line>42</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/src/main/java/ru/fastdelivery/presentation/calc/CalculateController.java</url>
-          <line>41</line>
+          <line>43</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
