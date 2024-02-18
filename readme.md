@@ -8,7 +8,7 @@
 - Spring Boot 3
 - Maven 3
 - JUnit 5
-- Swagger
+- Swagger 
 
 ## Локальный запуск
 
